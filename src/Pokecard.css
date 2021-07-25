@@ -1,0 +1,26 @@
+.Pokecard {
+    margin: 10px 0 10px 0;
+    background-color: rgba(157, 163, 189, 0.472);
+    border-radius: 3%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .Pokecard {
+        margin: 10px;
+    }
+  }
+
+.Pokecard-name {
+    color: indigo;
+    font-size: larger;
+}
+
+/* .Pokecard-img {
+    
+} */
+
+.Pokecard-type, .Pokecard-xp {
+    display: block;
+}
+
